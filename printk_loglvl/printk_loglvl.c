@@ -9,7 +9,7 @@ MODULE_VERSION("1.0");
 
 static int __init printk_loglvl_init(void)
 {
-    pr_emerg("Hello, world @ log-level KERN_EMERG   [0]\n");
+    	pr_emerg("Hello, world @ log-level KERN_EMERG   [0]\n");
 	pr_alert("Hello, world @ log-level KERN_ALERT   [1]\n");
 	pr_crit("Hello, world @ log-level KERN_CRIT    [2]\n");
 	pr_err("Hello, world @ log-level KERN_ERR     [3]\n");
