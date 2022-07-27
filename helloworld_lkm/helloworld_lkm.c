@@ -3,9 +3,9 @@
 #include <linux/init.h>
 
 MODULE_AUTHOR("Do Tai");
-MODULE_DESCRIPTION("LKP book:ch4/helloworld_lkm: hello, world, our first LKM");
-MODULE_LICENSE("Dual MIT/GPL");
-MODULE_VERSION("0.1");
+MODULE_DESCRIPTION("helloworld_lkm: hello, world, our first LKM");
+MODULE_LICENSE("NONLICENSE)";
+MODULE_VERSION("1.0");
 
 static int __init helloworld_lkm_init(void)
 {
